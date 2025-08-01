@@ -8,8 +8,10 @@ __pycache__/  # This ignores __pycache__ directories anywhere
 .eggs/
 
 # Jupyter Notebook files
-.ipynb_checkpoints/ # This ignores .ipynb_checkpoints directories anywhere
-*.ipynb
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*-checkpoint.ipynb
+**/*-checkpoint.ipynb
 
 # Distribution / packaging
 .Python
