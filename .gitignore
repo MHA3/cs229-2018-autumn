@@ -1,0 +1,27 @@
+# Python bytecode
+*.pyc
+__pycache__/  # This ignores __pycache__ directories anywhere
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/ # This ignores .ipynb_checkpoints directories anywhere
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+dist/
+venv/
+env/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+.DS_Store # macOS specific
